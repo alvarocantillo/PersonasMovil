@@ -4,10 +4,12 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tabla"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:stretchColumns="*">
-    tools:context="com.example.android.personas.Estado"
+    android:stretchColumns="*"
+    tools:context="com.example.android.personas.Listar">
+
 
     <TableRow
         android:layout_width="match_parent"
@@ -32,7 +34,7 @@
             android:text="@string/nombre" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/tabla2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/apellido" />

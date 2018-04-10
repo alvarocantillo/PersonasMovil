@@ -7,7 +7,11 @@
     <string name="guardar">Guardar</string>
     <string name="borrar">Borrar</string>
     <string name="no">No.</string>
-    <string name="cedula">Cedula</string>
-    <string name="nombre">Nombre</string>
-    <string name="apellido">Apellido</string>
+    <string name="mensaje_guardado">Persona Gaurdad Exitosamente</string>
+    <string name="registrarp">Registrar</string>
+    <string name="listar">Listar</string>
+    <string-array name="opciones">
+        <item>@string/registrarp</item>
+        <item>@string/listar</item>
+    </string-array>
 </resources>

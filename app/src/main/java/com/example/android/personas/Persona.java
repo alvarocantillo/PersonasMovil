@@ -38,4 +38,8 @@ public class Persona {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
+    public void guardar(){
+        Datos.guardar(this);
+    }
 }
